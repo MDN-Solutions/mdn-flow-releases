@@ -1,23 +1,42 @@
 {
   "schema": 1,
-  "estavel": null,
-  "teste": {
-    "version": "1.0.0-rc.2",
-    "publishedAt": "2026-11-16T13:02:47Z",
-    "notes": "**Versão candidata (pré-lançamento).** Traz o controle de estoque, a atualização automática e o novo\nvisual da tela de entrada. A **emissão fiscal (NFC-e/NFS-e) continua sem validação em homologação\ncom o provedor real e não deve ser usada em produção** até essa validação.\n## Novidades\n- **Estoque:** marque \"Controlar estoque\" no cadastro do produto (quantidade atual, estoque mínimo e\n  custo). As vendas com itens baixam o estoque sozinhas e cancelar a venda devolve. Entrada de\n  mercadoria (com custo), contagem (o sistema acerta a diferença), perda e devolução, todas com\n  histórico e motivo. Página **Estoque** com situação de cada produto e valor em estoque; aviso no\n  painel quando algo está acabando.\n- **Venda com produto do cadastro:** ao digitar o item da venda, escolha o produto da lista; o preço\n  é preenchido e aparece quanto há em estoque (com aviso se a venda passar do saldo).\n- **Atualização automática:** o MDN Flow avisa quando sai uma versão nova. No Windows, \"Atualizar\n  agora\" faz um backup, instala e abre de novo sozinho; no Linux, baixa o pacote conferido e mostra o\n  comando de instalação.\n- **Novo visual:** tela de entrada com a identidade da MDN, escolha de tema claro ou escuro na própria\n  tela, saudação \"Bem-vindo!\" no primeiro acesso e \"Bem-vindo de volta!\" depois; logotipo redesenhado\n  em vetor (nítido em qualquer tamanho), novos ícones e o violeta da marca nos botões.\n## Arquivos\n| Arquivo | Para |\n|---|---|\n| `MDN-Flow-Setup-1.0.0-rc.2.exe` | Wind…",
-    "notesUrl": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/tag/v1.0.0-rc.2",
+  "estavel": {
+    "version": "1.0.0",
+    "publishedAt": "2026-11-16T14:40:07Z",
+    "notes": "**Primeira versão estável.** Caixa, agenda, cadastros, estoque, relatórios, backups e atualização\nautomática, tudo instalado no computador da loja, sem servidor e sem mensalidade de hospedagem.\n**Emissão fiscal em validação:** nesta versão a emissão de NFC-e/NFS-e funciona **somente em\nhomologação** (testes, sem valor fiscal). A emissão em produção está bloqueada no sistema e será\nliberada numa atualização, depois da validação com o provedor. Notas e configurações já existentes\ncontinuam acessíveis (consulta, arquivos e cancelamento).\n## O que mudou desde a 1.0.0-rc.2\n- **Emissão fiscal em produção bloqueada** até a validação em homologação. A tela de Notas fiscais\n  mostra o aviso \"Emissão fiscal em validação\", a opção Produção fica indisponível e uma instalação\n  que estava configurada para produção volta para homologação ao salvar a configuração.\n- **Primeiro acesso:** se o navegador for fechado antes de criar o acesso do proprietário, abrir o\n  MDN Flow de novo pelo atalho volta direto para a tela de criação (antes ia para a tela de entrada).\n- **Senha esquecida:** procedimento de suporte para redefinir a senha do proprietário na instalação\n  local, sem perder dados ([docs/instalacao-local.md](https://github.com/MDN-Solutions/mdn-flow/blob/main/docs/instalacao-local.md#senha-do-proprietário-esquecida)).\n## Arquivos\n| Arquivo | Para |\n|---|---|\n| `MDN-Flow-Setup-1.0.0.exe` | Windows 10/11 64 bits — instalador por usuário (não pede administrador) |\n| `mdn-flow-1.0.0-window…",
+    "notesUrl": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/tag/v1.0.0",
     "assets": {
       "windows-x64": {
-        "file": "MDN-Flow-Setup-1.0.0-rc.2.exe",
-        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.0.0-rc.2/MDN-Flow-Setup-1.0.0-rc.2.exe",
-        "size": 119073555,
-        "sha256": "7e3adafa92d32e0b5a74af0f4646fdf00404f5798cc4caf5c623531624301131"
+        "file": "MDN-Flow-Setup-1.0.0.exe",
+        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.0.0/MDN-Flow-Setup-1.0.0.exe",
+        "size": 119077771,
+        "sha256": "11394666c1d868e8e952a0948332a77e7e20c04555131a96e87d8475966c0bab"
       },
       "linux-deb-amd64": {
-        "file": "mdn-flow_1.0.0-rc.2_amd64.deb",
-        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.0.0-rc.2/mdn-flow_1.0.0-rc.2_amd64.deb",
-        "size": 115546032,
-        "sha256": "bf40ed91e96abe9de85b267c9659ffb04b02272a605465d7b63ce7825adf9b73"
+        "file": "mdn-flow_1.0.0_amd64.deb",
+        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.0.0/mdn-flow_1.0.0_amd64.deb",
+        "size": 115541556,
+        "sha256": "f8dca28522abe1db4261bd559eee71ebfcbef1423ee23f5f9f81e62798b278ef"
+      }
+    }
+  },
+  "teste": {
+    "version": "1.0.0",
+    "publishedAt": "2026-11-16T14:40:07Z",
+    "notes": "**Primeira versão estável.** Caixa, agenda, cadastros, estoque, relatórios, backups e atualização\nautomática, tudo instalado no computador da loja, sem servidor e sem mensalidade de hospedagem.\n**Emissão fiscal em validação:** nesta versão a emissão de NFC-e/NFS-e funciona **somente em\nhomologação** (testes, sem valor fiscal). A emissão em produção está bloqueada no sistema e será\nliberada numa atualização, depois da validação com o provedor. Notas e configurações já existentes\ncontinuam acessíveis (consulta, arquivos e cancelamento).\n## O que mudou desde a 1.0.0-rc.2\n- **Emissão fiscal em produção bloqueada** até a validação em homologação. A tela de Notas fiscais\n  mostra o aviso \"Emissão fiscal em validação\", a opção Produção fica indisponível e uma instalação\n  que estava configurada para produção volta para homologação ao salvar a configuração.\n- **Primeiro acesso:** se o navegador for fechado antes de criar o acesso do proprietário, abrir o\n  MDN Flow de novo pelo atalho volta direto para a tela de criação (antes ia para a tela de entrada).\n- **Senha esquecida:** procedimento de suporte para redefinir a senha do proprietário na instalação\n  local, sem perder dados ([docs/instalacao-local.md](https://github.com/MDN-Solutions/mdn-flow/blob/main/docs/instalacao-local.md#senha-do-proprietário-esquecida)).\n## Arquivos\n| Arquivo | Para |\n|---|---|\n| `MDN-Flow-Setup-1.0.0.exe` | Windows 10/11 64 bits — instalador por usuário (não pede administrador) |\n| `mdn-flow-1.0.0-window…",
+    "notesUrl": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/tag/v1.0.0",
+    "assets": {
+      "windows-x64": {
+        "file": "MDN-Flow-Setup-1.0.0.exe",
+        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.0.0/MDN-Flow-Setup-1.0.0.exe",
+        "size": 119077771,
+        "sha256": "11394666c1d868e8e952a0948332a77e7e20c04555131a96e87d8475966c0bab"
+      },
+      "linux-deb-amd64": {
+        "file": "mdn-flow_1.0.0_amd64.deb",
+        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.0.0/mdn-flow_1.0.0_amd64.deb",
+        "size": 115541556,
+        "sha256": "f8dca28522abe1db4261bd559eee71ebfcbef1423ee23f5f9f81e62798b278ef"
       }
     }
   }
