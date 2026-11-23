@@ -1,42 +1,42 @@
 {
   "schema": 1,
   "estavel": {
-    "version": "1.1.0",
-    "publishedAt": "2026-11-22T00:31:40Z",
-    "notes": "Três novidades para o dia a dia da loja, tudo funcionando no próprio computador, sem servidor e\nsem mensalidade: **clientes sumidos com mensagem pelo WhatsApp**, **exclusão de produtos e\nserviços cadastrados por engano** e **recuperação de senha por e-mail**.\n## Novidades\n- **Clientes sumidos:** nova página com quem não volta há 30, 60, 90, 180 dias (ou o período que\n  você escolher), com a última visita, os dias sem voltar e o último contato. A última visita vem\n  das vendas e dos atendimentos registrados; quem já tem horário marcado não aparece.\n- **Mensagens pelo WhatsApp:** mensagens prontas e editáveis (use {nome}, {dias} e {loja}). Você\n  revisa o texto e o MDN Flow abre o WhatsApp da loja com a mensagem preenchida. **Nada é enviado\n  automaticamente.**\n- **Consentimento para promoções (LGPD):** no cadastro do cliente, marque \"Aceita receber\n  mensagens promocionais\" quando ele autorizar (a data fica registrada). Só quem autorizou pode ser\n  contatado por aqui; os demais aparecem na lista como \"Sem autorização\". Clientes já cadastrados\n  começam **sem** autorização.\n- **Excluir produtos e serviços:** o que nunca foi usado é excluído de vez. O que já aparece em\n  vendas, agendamentos ou estoque é **desativado**: sai das vendas e agendamentos novos, mas o\n  histórico continua igual e você pode reativar depois. A lista esconde os inativos (\"Mostrar\n  inativos\" para ver todos).\n- **Esqueci minha senha:** com o e-mail configurado em **Minha conta › E-mail**, a tela de entra…",
-    "notesUrl": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/tag/v1.1.0",
+    "version": "1.2.0",
+    "publishedAt": "2026-11-23T00:10:21Z",
+    "notes": "**Esqueceu a senha? Agora dá para resolver sozinho, sem e-mail, sem internet e sem pagar nada.**\n## Novidades\n- **Código de recuperação:** um código de 16 letras e números (ex.: `K7QM-2XPA-9RTD-4WNB`) que\n  aparece **uma única vez** para você anotar ou imprimir. Se esquecer a senha, vá em **Esqueci minha\n  senha › Tenho o código de recuperação**, digite o e-mail, o código e a nova senha. O código usado\n  deixa de valer e um novo aparece na hora: guarde-o também.\n  - **Instalações novas:** o código aparece logo depois de criar o acesso do proprietário.\n  - **Quem já usa o MDN Flow:** depois de atualizar, um aviso no topo leva a **Minha conta › Código de\n    recuperação**, onde você cria o seu (pede a senha atual). Perdeu o papel? Gere outro ali mesmo.\n- **\"Esqueci a senha\" no ícone do MDN Flow:** no computador da loja, clique com o botão direito no\n  ícone perto do relógio (no Windows, pode estar na setinha **^**) › **Esqueci a senha** › confirme.\n  O navegador abre a tela para criar a nova senha. Onde não há ícone perto do relógio (alguns Linux),\n  o botão fica na janela do MDN Flow.\n- **Esqueci minha senha** mostra as formas disponíveis no seu computador. A recuperação por e-mail da\n  1.1.0 continua funcionando para quem configurou.\n- Depois de criar a nova senha, a tela de entrada já vem com o seu e-mail preenchido.\nPasso a passo: [docs/instalacao-local.md](https://github.com/MDN-Solutions/mdn-flow/blob/main/docs/instalacao-local.md#senha-do-proprietário-esquecida).\n## Seg…",
+    "notesUrl": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/tag/v1.2.0",
     "assets": {
       "windows-x64": {
-        "file": "MDN-Flow-Setup-1.1.0.exe",
-        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.1.0/MDN-Flow-Setup-1.1.0.exe",
-        "size": 119993494,
-        "sha256": "7cd18040a13ebeb9402fd5044ddd4ade49a484d55e277d6235df37dc5d568785"
+        "file": "MDN-Flow-Setup-1.2.0.exe",
+        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.2.0/MDN-Flow-Setup-1.2.0.exe",
+        "size": 120016907,
+        "sha256": "c86bef06b4340d29ed5263bd5bff125f81b7bef48bd41794a16a9ba886000579"
       },
       "linux-deb-amd64": {
-        "file": "mdn-flow_1.1.0_amd64.deb",
-        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.1.0/mdn-flow_1.1.0_amd64.deb",
-        "size": 116421072,
-        "sha256": "4710a92fd2e69d7b00f7476855e3bb4478f1dda3063eb3030504f544ebbc9182"
+        "file": "mdn-flow_1.2.0_amd64.deb",
+        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.2.0/mdn-flow_1.2.0_amd64.deb",
+        "size": 116442750,
+        "sha256": "670e9e7417e1eb7ed24cc06693563af22d5aa8be6c5eaac71230f734bb1ae02f"
       }
     }
   },
   "teste": {
-    "version": "1.1.0",
-    "publishedAt": "2026-11-22T00:31:40Z",
-    "notes": "Três novidades para o dia a dia da loja, tudo funcionando no próprio computador, sem servidor e\nsem mensalidade: **clientes sumidos com mensagem pelo WhatsApp**, **exclusão de produtos e\nserviços cadastrados por engano** e **recuperação de senha por e-mail**.\n## Novidades\n- **Clientes sumidos:** nova página com quem não volta há 30, 60, 90, 180 dias (ou o período que\n  você escolher), com a última visita, os dias sem voltar e o último contato. A última visita vem\n  das vendas e dos atendimentos registrados; quem já tem horário marcado não aparece.\n- **Mensagens pelo WhatsApp:** mensagens prontas e editáveis (use {nome}, {dias} e {loja}). Você\n  revisa o texto e o MDN Flow abre o WhatsApp da loja com a mensagem preenchida. **Nada é enviado\n  automaticamente.**\n- **Consentimento para promoções (LGPD):** no cadastro do cliente, marque \"Aceita receber\n  mensagens promocionais\" quando ele autorizar (a data fica registrada). Só quem autorizou pode ser\n  contatado por aqui; os demais aparecem na lista como \"Sem autorização\". Clientes já cadastrados\n  começam **sem** autorização.\n- **Excluir produtos e serviços:** o que nunca foi usado é excluído de vez. O que já aparece em\n  vendas, agendamentos ou estoque é **desativado**: sai das vendas e agendamentos novos, mas o\n  histórico continua igual e você pode reativar depois. A lista esconde os inativos (\"Mostrar\n  inativos\" para ver todos).\n- **Esqueci minha senha:** com o e-mail configurado em **Minha conta › E-mail**, a tela de entra…",
-    "notesUrl": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/tag/v1.1.0",
+    "version": "1.2.0",
+    "publishedAt": "2026-11-23T00:10:21Z",
+    "notes": "**Esqueceu a senha? Agora dá para resolver sozinho, sem e-mail, sem internet e sem pagar nada.**\n## Novidades\n- **Código de recuperação:** um código de 16 letras e números (ex.: `K7QM-2XPA-9RTD-4WNB`) que\n  aparece **uma única vez** para você anotar ou imprimir. Se esquecer a senha, vá em **Esqueci minha\n  senha › Tenho o código de recuperação**, digite o e-mail, o código e a nova senha. O código usado\n  deixa de valer e um novo aparece na hora: guarde-o também.\n  - **Instalações novas:** o código aparece logo depois de criar o acesso do proprietário.\n  - **Quem já usa o MDN Flow:** depois de atualizar, um aviso no topo leva a **Minha conta › Código de\n    recuperação**, onde você cria o seu (pede a senha atual). Perdeu o papel? Gere outro ali mesmo.\n- **\"Esqueci a senha\" no ícone do MDN Flow:** no computador da loja, clique com o botão direito no\n  ícone perto do relógio (no Windows, pode estar na setinha **^**) › **Esqueci a senha** › confirme.\n  O navegador abre a tela para criar a nova senha. Onde não há ícone perto do relógio (alguns Linux),\n  o botão fica na janela do MDN Flow.\n- **Esqueci minha senha** mostra as formas disponíveis no seu computador. A recuperação por e-mail da\n  1.1.0 continua funcionando para quem configurou.\n- Depois de criar a nova senha, a tela de entrada já vem com o seu e-mail preenchido.\nPasso a passo: [docs/instalacao-local.md](https://github.com/MDN-Solutions/mdn-flow/blob/main/docs/instalacao-local.md#senha-do-proprietário-esquecida).\n## Seg…",
+    "notesUrl": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/tag/v1.2.0",
     "assets": {
       "windows-x64": {
-        "file": "MDN-Flow-Setup-1.1.0.exe",
-        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.1.0/MDN-Flow-Setup-1.1.0.exe",
-        "size": 119993494,
-        "sha256": "7cd18040a13ebeb9402fd5044ddd4ade49a484d55e277d6235df37dc5d568785"
+        "file": "MDN-Flow-Setup-1.2.0.exe",
+        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.2.0/MDN-Flow-Setup-1.2.0.exe",
+        "size": 120016907,
+        "sha256": "c86bef06b4340d29ed5263bd5bff125f81b7bef48bd41794a16a9ba886000579"
       },
       "linux-deb-amd64": {
-        "file": "mdn-flow_1.1.0_amd64.deb",
-        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.1.0/mdn-flow_1.1.0_amd64.deb",
-        "size": 116421072,
-        "sha256": "4710a92fd2e69d7b00f7476855e3bb4478f1dda3063eb3030504f544ebbc9182"
+        "file": "mdn-flow_1.2.0_amd64.deb",
+        "url": "https://github.com/MDN-Solutions/mdn-flow-releases/releases/download/v1.2.0/mdn-flow_1.2.0_amd64.deb",
+        "size": 116442750,
+        "sha256": "670e9e7417e1eb7ed24cc06693563af22d5aa8be6c5eaac71230f734bb1ae02f"
       }
     }
   }
